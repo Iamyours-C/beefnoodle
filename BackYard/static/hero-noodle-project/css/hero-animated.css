@@ -1,0 +1,61 @@
+.column .hero-bon{
+	animation: ani 1s infinite ;
+    visibility: visible;
+    transform: translateY(0);
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1
+}
+.column .hero-bon-one{
+	animation: ani 1.5s infinite ;
+    visibility: visible;
+    transform: translateY(0) ;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1
+}
+.column .hero-bon-two{
+	animation: ani 2s infinite ;
+    visibility: visible;
+    transform: translateY(0) ;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1
+}
+/*.column .hero-bon-one{
+	animation: 3s ease 0s 1 alternate none running ani;
+    visibility: visible;
+}*/
+
+/*.column .col-3-1{
+	width: 31.3333%;
+	margin-right: 2%;
+	text-align: center;
+	visibility: hidden;
+	transform: translateY(100%);
+}*/
+/*.column .hero-bon{
+	visibility: visible;
+	animation: move 2s infinite linear;
+	transform: translateY(0) !important;	
+}*/
+@keyframes ani{
+			from{
+				transform: translateY(100%);
+			}
+			
+			/*50% {
+				left: 50%;
+				transform: rotate(0);
+				background: paleturquoise;
+			}
+			100%{
+				left: 0;
+				transform: rotate(360deg);
+				background: yellowgreen;
+			}*/
+		}
+		
+
+/*.hero-page-bon{
+	visibility: visible;
+	animation: ;
+}
+*/

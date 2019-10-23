@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/hero-reset.css" />
+	    <link rel="stylesheet" href="css/hero-public.css" />
+		<link rel="stylesheet" href="css/hero-img-backsage.css" />
+		<link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<script src="ueditor/ueditor.config.js"></script>
+		<script src="ueditor/ueditor.all.js"></script>
+		<script src="ueditor/lang/zh-cn/zh-cn.js"></script>
+	</head>
+	<body>
+		<div class="hero-banner">
+			<a href="hero-bage.html">
+				<img src="img/logo.png" />
+			</a>
+		</div>
+		<hr class="cutline"></hr>
+		<div class="hero-node">
+			<div class="maskrange">
+			<div class="fl hero-left">
+				<div class="hero-login">轮播图管理</div>
+				<div class="hero-login">公司新闻与行业动态</div>
+			    <div class="hero-login">常见问题</div>
+				<div class="hero-login">特色菜品</div>
+				<div class="hero-login ">店面形象和企业荣誉</div>
+				<div class="hero-login ">新闻、问题、动态内容</div>
+			</div>
+			</div>
+			<!--欢迎来到管理界面-->
+			<div class="fl admini bon on">
+					<img src="img/dino.png" class="dinoanimal">
+				<h1 style="color: #D00C1D; padding-right: 100px ;">欢迎你</h1>
+				<h1 style="padding-right: 70px ;">后台管理员</h1>
+			</div>
+		    <!--首页轮播图-->
+		   	<form class="form-add4">
+				<div class="corsuel bon fl">
+					<div class="hero-login-conten">
+						<div class="">首页轮播图</div>
+						<div class="hero-input">
+							<a class="file tip">点击上传图片
+								<input type="file" name="img" accept="image/*" />
+							</a>
+						</div>
+						<div class="hero-input">
+							<a class="hero-btn">取消</a>
+							<a class="hero-btn hero-bon plant-add">添加</a>
+						</div>
+					</div>
+					<div class="hero-plant">
+						<div class="hero-plant-title borders">
+							<div class="zoom">id</div>
+							<div class="zoom">图片</div>
+							<div class="zoom">操作</div>
+						</div>
+						<div class="table-main-content3"></div>
+					</div>
+				</div>
+			</form>
+		   <!-- 公司新闻与行业动态-->
+		   <form class="form-add3">
+				<div class="fl daynamic bon">
+					<div class="hero-login-conten">
+						<div class="hero-input">
+							<span>标题:</span>
+							<input type="text" name="name"/>
+						</div>
+						<div class="hero-input">
+							<span>条数:</span>
+							<input type="text" name="bars"/>
+						</div>
+						<div class="hero-input">
+							<span>时间:</span>
+							<input type="text" name="dates"/>
+						</div>
+						<div class="hero-input ">
+							<span>分类:</span>
+							<input type="number" name="class" />
+						</div>
+						<div class="hero-input">
+							<span>内容:</span>
+							<textarea style="max-width: 100%; width: 25%;" name="cont"></textarea>
+						</div>
+						<div class="hero-input">
+							<a class="hero-btn">取消</a>
+							<a class="hero-btn hero-bon gamity-add">添加</a>
+						</div>
+					</div>	
+					<div class="hero-plant">
+						<div class="hero-plant-title borders">
+							<div class="yoom">id</div>
+							<div class="yoom">标题</div>
+							<div class="yoom">条数</div>
+							<div class="yoom">时间</div>
+							<div class="yoom">分类</div>
+							<div class="yoom">内容</div>
+							<div class="yoom">操作</div>
+						</div>
+						<div class="table-main-content4"></div>
+					</div>
+				</div>
+		   </form>
+		   	
+			<!-- 常见问题-->
+		   <form class="form-add5">
+				<div class="fl hero-help bon">
+					<div class="hero-login-conten">
+						<div class="hero-input">
+							<span class="hero-span">问题:</span>
+							<textarea style="max-width: 100%; width: 45%;" name="name"></textarea>
+						</div>
+						<div class="hero-input">
+							<span>回答:</span>
+							<textarea style="max-width: 100%; width: 45%;" name="cont"></textarea>
+						</div>
+						<div class="hero-input">
+							<a class="hero-btn hero-bon problem-add">添加</a>
+						</div>
+					</div>
+					<div class="hero-plant">
+						<div class="hero-plant-title borders">
+							<div class="joom">id</div>
+							<div class="joom">标题</div>
+							<div class="joom">内容</div>
+							<div class="joom">操作</div>
+						</div>
+						<div class="table-main-content5"></div>
+					</div>
+				</div>
+		   </form>
+		   		   
+		   	<!--特色菜品-->
+		   <form class="form-add">
+				<div class=" fl bon hero-center hero-char ">
+					<div class="hero-ing-backsage">
+						<div class="hero-header">
+							添加图片
+						</div>
+						<div class="hero-input">
+							<span>名称:</span>
+							<input type="text" name="name"/>
+						</div>
+						<div class="hero-input">
+							<span>分类:</span>
+							<input type="text" name="class" />
+						</div>
+						<div class="hero-input">
+							<span>图片:</span>
+							<input type="file" name="img" accept="image/*" />
+						</div>
+						<div class="hero-input">
+							<a class="hero-btn">取消</a>
+							<a class="hero-btn hero-bon goods-add">添加</a>
+						</div>
+					</div>
+					<div class="hero-plant">
+						<div class="hero-plant-title borders">
+							<div class="coom">id</div>
+							<div class="coom">名称</div>
+							<div class="coom">图片</div>
+							<div class="coom">操作</div>
+						</div>
+						<!-- 数据 -->
+						<div class="table-main-content"></div>
+					</div>
+				</div>
+		   </form>
+		   <!--店面形象-->
+			<form class="form-add2">
+				<div class=" fl bon hero-center hero-back">
+					<div class="hero-ing-backsage">
+						<div class="hero-header">
+							添加图片
+						</div>
+						<div class="hero-input">
+							<span>名称:</span>
+							<input type="text" name="name"/>
+						</div>
+						<div class="hero-input">
+							<span>分类:</span>
+							<input type="text" name="class" />
+						</div>
+						<div class="hero-input">
+							<span>图片:</span>
+							<input type="file" name="img" accept="image/*" />
+						</div>
+						<div class="hero-input">
+							<a class="hero-btn">取消</a>
+							<a class="hero-btn hero-bon store-add">添加</a>
+						</div>
+					</div>
+					<div class="hero-plant">
+						<div class="hero-plant-title borders">
+							<div class="coom">id</div>
+							<div class="coom">名称</div>
+							<div class="coom">分类(1新闻2动态)</div>
+							<div class="coom">图片</div>
+							<div class="coom">操作</div>
+						</div>
+						<div class="table-main-content2"></div>
+					</div>
+				</div>
+			</form>
+       
+       	   <!-- 新闻资讯 行业动态 常见问题 文章集合-->
+<div class="modal fade bs-example-modal-sm" id="modal" data-show="true">
+	<div class="modal-dialog modal-sm" style="width: 1006px;">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">
+					<i class="glyphicon glyphicon-remove"></i>
+				</span>
+				<div class="modal-title h4">标题</div>
+			</div>
+			<div class="clearfix">
+			<form class="form-add6">
+				<div class=" fl bon hero-center in" style="display: block;">
+						<div class="hero-input">
+							<span>标题:</span>
+							<input type="text" name="name"/>
+						</div>
+						<div class="hero-input">
+							<span>分类:</span>
+							<input type="number" name="class" />
+						</div>
+						<div class="hero-input">
+							<span>时间:</span>
+							<input type="text" name="dates"/>
+						</div>
+						
+						<div class="hero-input">
+							<span>内容:</span>
+							<script id="editor" type="text/plain"></script>
+						</div>
+						<input name="detail" type="hidden" />
+						<div class="hero-input">
+							<a class="hero-btn">取消</a>
+							<a class="hero-btn hero-bon coltion-add">添加</a>
+						</div>	   	
+					<div class="hero-plant">
+						<div class="hero-plant-title borders">
+							<div class="coom">id</div>
+							<div class="coom">标题</div>
+							<div class="coom">分类</div>
+							<div class="coom">时间</div>
+							<div class="coom">操作</div>
+						</div>
+						<div class="table-main-content6"></div>
+					</div>
+				</div>
+		   </form>
+		   </div>
+			<div class="modal-footer">
+				<a class="btn btn-default">取消</a>
+				<a class="btn btn-primary">确定</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+		</div>
+		<!-- 页面获取数据 -->
+		<!-- 特色菜品 -->
+		<script type="text/html" id="tablist">
+			{{each data as item i}}
+				<div class="hero-plant-list clearFix borders">
+					<div class="coom goodid">{{item.id}}</div>
+					<div class="coom">{{item.name}}</div>
+					<div class="coom">{{item.class}}</div>
+					<div class="list-img coom"><img src="{{api + item.img}}" /></div>
+					<div class="coom">
+						<a class="list-a">删除</a>
+					</div>
+				</div>
+			{{/each}}
+		</script>
+		<!-- 店面形象和企业荣誉 -->
+		<script type="text/html" id="tablist2">
+			{{each data as item i}}
+				<div class="hero-plant-list clearFix borders">
+					<div class="coom goodid2">{{item.id}}</div>
+					<div class="coom">{{item.name}}</div>
+					<div class="coom">{{item.class}}</div>
+					<div class="list-img coom"><img src="{{api + item.img}}" /></div>
+					<div class="coom"><a class="list-a">删除</a></div>
+				</div>
+			{{/each}}
+		</script>
+		<!-- 轮播图 -->
+		<script type="text/html" id="tablist3">
+			{{each data as item i}}
+				<div class="hero-plant-list clearFix borders">
+					<div class="zoom goodid3">{{item.id}}</div>
+					<div class="zoom fl list-img"><img src="{{api + item.img}}" /></div>
+					<div class="zoom fl"><a class="list-a">删除</a></div>
+				</div>
+			{{/each}}
+		</script>
+		<!-- 公司新闻与行业动态 -->
+		<script type="text/html" id="tablist4">
+			{{each data as item i}}
+				<div class="hero-plant-list clearFix borders">
+					<div class="yoom goodid4">{{item.id}}</div>
+					<div class="yoom">{{item.NAME}}</div>
+					<div class="yoom">{{item.bars}}</div>
+					<div class="yoom">{{item.dates}}</div>
+					<div class="yoom">{{item.class}}</div>
+					<div class="yoom">{{item.cont}}</div>
+					<div class="yoom"><a class="list-a">删除</a></div>
+				</div>
+			{{/each}}
+		</script>
+		<!-- 常见问题-->
+		<script type="text/html" id="tablist5">
+			{{each data as item i}}
+				<div class="hero-plant-list clearFix borders">
+					<div class="joom goodid5">{{item.id}}</div>
+					<div class="joom">{{item.name}}</div>
+					<div class="joom">{{item.cont}}</div>
+					<div class="joom">
+						<a class="list-a">删除</a>
+					</div>
+				</div>
+			{{/each}}
+		</script>
+		<!-- 新闻资讯 行业动态 常见问题 文章集合-->
+		<script type="text/html" id="tablist6">
+			{{each data as item i}}
+				<div class="hero-plant-list clearFix borders">
+					<div class="coom goodid6">{{item.id}}</div>
+					<div class="coom">{{item.title}}</div>
+					<div class="coom">{{item.class}}</div>
+					<div class="coom">{{item.dates}}</div>
+					<div class="coom">
+						<a class="list-a">删除</a>
+					</div>
+				</div>
+			{{/each}}
+		</script>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/select.js" ></script>
+<script type="text/javascript" src="js/backsage.js" ></script>
+<script src="js/template.js"></script>
+<script src="js/common.js"></script>
+<script>
+	
+	// 获取数据显示到页面
+	getListData()
+	// 获取列表数据
+	function getListData(){
+		// 发送ajax请求 获取商品列表的数据
+		$.ajax({
+			url: api + 'lists',
+			type:'get',
+			dataType:'json',
+			success:function(res){
+				res.api = api
+				// 模板引擎封装的方法
+				// template（渲染需要渲染的数据)
+				var html = template('tablist',res)
+				$(".table-main-content").html(html)
+			}
+		})
+	}
+
+	getList2Data()
+	// 获取列表数据
+	function getList2Data(){
+		// 发送ajax请求 获取商品列表的数据
+		$.ajax({
+			url: api + 'lists2',
+			type:'get',
+			dataType:'json',
+			success:function(res){
+				res.api = api
+				// 模板引擎封装的方法
+				// template（渲染需要渲染的数据)
+				var html = template('tablist2',res)
+				$(".table-main-content2").html(html)
+			}
+		})
+	}
+	
+	getList3Data()
+	// 获取列表数据
+	function getList3Data(){
+		// 发送ajax请求 获取商品列表的数据
+		$.ajax({
+			url: api + 'lists3',
+			type:'get',
+			dataType:'json',
+			success:function(res){
+				res.api = api
+				// 模板引擎封装的方法
+				// template（渲染需要渲染的数据)
+				var html = template('tablist3',res)
+				$(".table-main-content3").html(html)
+			}
+		})
+	}
+	
+	getList4Data()
+	// 获取列表数据
+	function getList4Data(){
+		$.ajax({
+			url: api + 'lists4',
+			type: 'get',
+			dataType: 'json',
+			success:function(res){
+				res.api = api
+				// 模板引擎封装的方法
+				// template（渲染需要渲染的数据)
+				var html = template('tablist4',res)
+				$(".table-main-content4").html(html)
+			}
+		})
+	}
+		
+	getList5Data()
+	// 获取列表数据
+	function getList5Data(){
+		$.ajax({
+			url: api + 'lists5',
+			type: 'get',
+			dataType: 'json',
+			success:function(res){
+				res.api = api
+				// 模板引擎封装的方法
+				// template（渲染需要渲染的数据)
+				var html = template('tablist5',res)
+				$(".table-main-content5").html(html)
+			}
+		})
+	}
+	
+	getList6Data()
+	// 获取列表数据
+	function getList6Data(){
+		$.ajax({
+			url: api + 'lists6',
+			type: 'get',
+			dataType: 'json',
+			success:function(res){
+				res.api = api
+				// 模板引擎封装的方法
+				// template（渲染需要渲染的数据)
+				var html = template('tablist6',res)
+				$(".table-main-content6").html(html)
+			}
+		})
+	}
+	
+	
+	
+	
+	// 点击添加提交数据 提交到后台
+	// 特色菜品添加
+	$(".goods-add").click(function(){
+		// js 获取form表单  formdata中需要js对象
+		let form = document.querySelector(".form-add")
+		// 将表单中的数据 转为对象传送
+		let formdata = new FormData(form)
+	
+		$.ajax({
+			url: api + 'addgoods',
+			type: 'post',
+			data: formdata,
+			dataType: 'json',
+			// 将传送文件的格式 改为json格式传送
+			contentType: false,
+			// 限定文件传送数据格式
+			processData: false,
+			success: function(res){
+				
+				if(res.status == 200) {
+					console.log('添加成功')
+				}else {
+					console.log('添加失败')
+				}
+				
+			}
+		})
+	
+	})
+
+	
+	// 店面形象
+	$(".store-add").click(function(){
+		// js 获取form表单  formdata中需要js对象
+		let form = document.querySelector(".form-add2")
+		// 将表单中的数据 转为对象传送
+		let formdata = new FormData(form)
+	
+		$.ajax({
+			url: api + 'addstore',
+			type: 'post',
+			data: formdata,
+			dataType: 'json',
+			// 将传送文件的格式 改为json格式传送
+			contentType: false,
+			// 限定文件传送数据格式
+			processData: false,
+			success: function(res){
+				
+				if(res.status == 200) {
+					console.log('添加成功')
+				}else {
+					console.log('添加失败')
+				}	
+			}
+		})
+	
+	})
+
+	// 新闻与行业添加
+	$(".gamity-add").click(function(){
+		// js 获取form表单  formdata中需要js对象
+		let form = document.querySelector(".form-add3")
+		// 将表单中的数据 转为对象传送
+		let formdata = new FormData(form)
+	
+		$.ajax({
+			url: api + 'addjasm',
+			type: 'post',
+			data: formdata,
+			dataType: 'json',
+			// 将传送文件的格式 改为json格式传送
+			contentType: false,
+			// 限定文件传送数据格式
+			processData: false,
+			success: function(res){
+				
+				if(res.status == 200) {
+					console.log('添加成功')
+				}else {
+					console.log('添加失败')
+				}
+				
+			}
+		})
+	
+	})
+
+	// 轮播图
+	$(".plant-add").click(function(){
+		// js 获取form表单  formdata中需要js对象
+		let form = document.querySelector(".form-add4")
+		// 将表单中的数据 转为对象传送
+		let formdata = new FormData(form)
+	
+		$.ajax({
+			url: api + 'addplant',
+			type: 'post',
+			data: formdata,
+			dataType: 'json',
+			// 将传送文件的格式 改为json格式传送
+			contentType: false,
+			// 限定文件传送数据格式
+			processData: false,
+			success: function(res){
+				
+				if(res.status == 200) {
+					console.log('添加成功')
+				}else {
+					console.log('添加失败')
+				}	
+			}
+		})
+	
+	})
+
+	// 常见问题
+	$(".problem-add").click(function(){
+		// js 获取form表单  formdata中需要js对象
+		let form = document.querySelector(".form-add5")
+		// 将表单中的数据 转为对象传送
+		let formdata = new FormData(form)
+	
+		$.ajax({
+			url: api + 'addproblem',
+			type: 'post',
+			data: formdata,
+			dataType: 'json',
+			// 将传送文件的格式 改为json格式传送
+			contentType: false,
+			// 限定文件传送数据格式
+			processData: false,
+			success: function(res){
+				
+				if(res.status == 200) {
+					console.log('添加成功')
+				}else {
+					console.log('添加失败')
+				}	
+			}
+		})
+	
+	})
+
+	let ue = UE.getEditor('editor')
+	// 文章集合
+	$(".coltion-add").click(function(){
+		let detail = ue.getContent()
+		$("[name=detail]").val(detail)
+		// js 获取form表单  formdata中需要js对象
+		let form = document.querySelector(".form-add6")
+		// 将表单中的数据 转为对象传送
+		let formdata = new FormData(form)
+		
+		$.ajax({
+			url: api + 'addcollection',
+			type: 'post',
+			data: formdata,
+			dataType: 'json',
+			// 将传送文件的格式 改为json格式传送
+			contentType: false,
+			// 限定文件传送数据格式
+			processData: false,
+			success: function(res){
+				
+				if(res.status == 200) {
+					console.log('添加成功')
+				}else {
+					console.log('添加失败')
+				}
+			}
+		})
+	
+	})
+
+</script>
+<script>
+		$(".close").click(function(){
+			
+							$("#modal").modal('toggle')
+							
+						})
+</script>
+<script src="js/deletegoods.js"></script>

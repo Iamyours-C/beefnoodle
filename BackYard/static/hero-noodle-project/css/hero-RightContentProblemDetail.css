@@ -1,0 +1,65 @@
+	.hero-detail-title{
+		    text-align: center;
+	   	    margin-bottom: 15px;
+	}
+	.hero-detail-title h1{
+		    font-size: 22px;
+		    line-height: 1.5;
+		    font-weight: normal;
+	}
+	
+	.hero-article-attribute{
+		    text-align: center;
+		    margin-bottom: 30px;
+		    font-size: 12px;
+	}
+		
+	.hero-article-attribute span{
+		    margin: 0 10px;
+	}
+	
+	.hero-article-attribute strong{
+		    font-weight: normal;
+	}
+	
+	.hero-article-attribute a{
+			color: #999;
+	}
+	
+	.hero-article-attribute a:hover{
+			text-decoration: none;
+		    color: #d00c1d;
+	}
+	
+	.hero-article-content{
+		    margin-top: 25px;
+	}
+	.hero-detailcontent{
+		    line-height: 1.8;
+		    margin-bottom: 15px;
+	}
+
+    .hero-article-bottom{
+	    	border-top: 1px solid #c8c9cb;
+		    margin: 15px 0;
+		    padding-top: 15px;
+    }
+    
+	.hero-detail-button{
+		    background: #cfcfcf;
+   			padding: 5px 5px;
+	}
+	
+	.hero-detail-button a{
+			 color: #6e6e6e;
+	}
+	
+	.hero-detail-button a:hover{
+		  color: #d00c1d;
+   		  text-decoration: none;
+	}
+	.hero-share-button span{
+		    height: 16px;
+		    line-height: 16px;
+		    margin: 6px 0 6px 0;
+	}

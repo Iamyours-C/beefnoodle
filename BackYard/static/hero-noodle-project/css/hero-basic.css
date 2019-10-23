@@ -1,0 +1,168 @@
+/*导航开始*/
+.hero-top {
+	background-color: #F9F7F8;
+	padding-left: .3rem;
+	text-align: center;
+}
+.hero-nav {
+	display: inline-block;
+}
+.hero-top li {
+	float: left;
+}
+.nav-list {
+	position: relative;
+	line-height: 1rem;
+}
+.nav-item {
+	padding:.05rem .1rem;
+	color: #222222;
+}
+.nav-item:hover {
+	text-decoration: none;
+	background: #e63641;
+	border-radius: .15rem;
+	color: #FFFFFF;
+}
+.default {
+	background: #e63641;
+	border-radius: .15rem;
+	color: #FFFFFF;
+}
+/*二级导航*/
+.second-lists {
+	display: none;
+	padding: .1rem 0;
+	background: #FFFFFF;
+	text-align: left;
+}
+.second-lists .second-list {
+	font-size:.13rem;
+	line-height: .22rem;
+	float: none;
+	padding: .08rem .15rem;
+	
+}
+.nav-list:hover .second-lists{
+	display: block;
+}
+.show-item {
+	width: 2rem;
+	height: 0;
+	position: absolute;
+	top: 1rem;
+	left: 0;
+	overflow: hidden;
+	z-index: 1000;
+	transition: height 0.3s;
+}
+.nav-list:hover .show-item {
+	width: 1.6rem;
+	height: 2.35rem;
+}
+.hero-top .navbar {
+	margin-bottom: 0;
+}
+.hero-nav .navbar-header {
+	position: relative;
+	z-index: 11;
+	padding-left: .1rem;
+	cursor: pointer;
+}
+.navbar-header .navbar-toggle {
+	background: transparent;
+    width: .4rem;
+    height: .4rem;
+    padding: 0;
+    text-align: center;
+    display: none;
+}
+.hero-nav .navbar-toggle .icon-bar {
+	background: gray;
+	margin: .08rem  auto;
+	width: .35rem;
+	height: .04rem;
+}
+/*堆叠列表*/
+.hero-stack {
+	display: none;
+	
+	width: 100%;
+	background: #D00C1D;
+	padding: .2rem .2rem .35rem;
+}
+.hero-stack .hero-stack-lists .hero-stack-item {
+	border-bottom: .01rem solid #EF4D5B;
+	float: none;
+	position: relative;
+}
+.hero-stack-item .list-item {
+    display: block;
+    height: 48px;
+    color: #fff;
+    line-height: 48px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.hero-stack-item .item-ico {
+	cursor: pointer;
+}
+.item-ico>img.down {
+	transform: rotateZ(180deg);
+}
+.hero-stack-item .item-ico {
+	display: block;
+	width: 13px;
+    height: 13px;
+    overflow: hidden;
+    top: 19px;
+    right: 5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	position: absolute;
+}
+.hero-stack-item .item-ico img {
+	
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+}
+.hero-stack-vice {
+	display: none;
+	padding: 0 .1rem .3rem .3rem;
+}
+
+.hero-stack-vice .hero-stack-v {
+	float: none;
+}
+.hero-stack-vice .second-item {
+	color: #fff;
+	padding: 0;
+    padding-left: 5px;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+}
+
+/*媒体查询*/
+@media (max-width:1120px) {
+	.hero-nav {
+		display: block;
+	}
+	.hero-nav .nav-lists {
+		display: none;
+	}
+	.hero-nav .hero-logo {
+		padding-left: .15rem;
+	}
+	.hero-nav .hero-logo img {
+		height: .5rem;
+		display: block;
+	}
+	.navbar-header .navbar-toggle {
+		display: block;
+	}
+	
+}

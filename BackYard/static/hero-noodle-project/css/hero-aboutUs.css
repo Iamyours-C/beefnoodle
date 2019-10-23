@@ -1,0 +1,70 @@
+﻿/
+/*抬头主标题背景图*/
+.hero-MainTitleImg{
+	width: 100%;
+	height: 226px;
+	/*background: url(../img/MainTitleImg.jpg) no-repeat*/
+	/*background-size: 100%;*/
+}
+.hero-MainTitleImg img {
+	width: 100%;
+	height: 100%;
+}
+/*主要内容区域*/
+.hero-Main{
+	width: 100%px;
+}
+
+/*主要内容*/
+.hero-MainContent{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*右侧内容*/
+.hero-RightContent{
+	padding: 15px 0 65px;
+	width: 930px;
+}
+
+.hero-ContentTitle{
+	    border-bottom: 1px solid #e5e5e5;
+	    padding: 0;
+	    margin-bottom: 30px;
+}
+.hero-TitleName h2{
+	    font-weight: bold;
+	    font-size: 16px;
+	    margin-top: 15px;
+}
+.hero-TitlePath{
+	    padding-left: 16px;
+	    background: url(../img/icon-home.png) no-repeat left center;	
+	    font-size: 12px;
+	    color: #808080;
+	    line-height: 50px;
+}
+.hero-TitlePath a:hover{
+	text-decoration: none;
+}
+    
+   
+.hero-TitlePath a{
+	color: #808080;
+}
+
+	
+
+@media (max-width:1199px) {
+			/*右侧内容*/
+		.hero-RightContent{
+			padding: 10px 10px 0 10px;
+			width: 100%;
+		}
+		.hero-ContentTitle{
+			display: none;
+		}
+		.hero-MainContent{
+			width: 100%;
+		}
+}

@@ -1,0 +1,56 @@
+/*左侧边栏*/
+.hero-leftsidebar{
+	width: 2.4rem;
+	/*position: relative;*/
+}
+
+/*侧边栏标题*/
+.hero-sidebartitle{
+    background: #d00c1d;
+	padding: .5rem .1rem .2rem .3rem;
+}
+/*侧边栏标题属性*/
+.hero-sidebartitle h3{
+	height: .45rem;
+	line-height: .45rem;
+	color: #fff;
+	font-weight: normal;
+	font-size: .2rem;
+}
+
+.hero-sidebarcontent{
+	padding: .1rem 0 0;
+	border: .01rem solid #ddd;
+	background: #fbf7eb;
+}
+
+.hero-sidebarcontent ul li{
+	border-bottom: .01rem solid #EFECDD;
+	padding-left: .3rem;
+}
+.hero-sidebarcontent ul li a{
+	display: block;
+	padding-top: .12rem;
+    padding-bottom: .12rem;
+    line-height: .24rem;
+    color: #333;
+    font-size: .16rem;
+}
+.hero-sidebarcontent ul li a:hover{
+	text-decoration: none;
+}
+
+/*鼠标放上效果*/
+.hero-sidebarcontent ul li a:hover{
+	color: #d00c1d;
+}
+
+/*添加一个选中效果*/
+.hero-sidebarcontent ul li a.chosen{
+	color: #d00c1d;
+}
+
+/*最后一个li消除底线*/
+.hero-sidebarcontent ul li:last-child{
+	border-bottom: none;
+}

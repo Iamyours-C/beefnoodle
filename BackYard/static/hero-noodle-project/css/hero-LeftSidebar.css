@@ -1,0 +1,64 @@
+/*左侧边栏*/
+		.hero-LeftSidebar{
+			width: 240px;
+			position: relative;
+			top: -50px;
+		}
+		
+		/*侧边栏标题*/
+		.hero-sidebarTitle{
+			    background: #d00c1d;
+    			padding: 50px 10px 20px 30px;
+		}
+		/*侧边栏标题属性*/
+		.hero-sidebarTitle h3{
+			height: 45px;
+   			line-height: 45px;
+   			color: #fff;
+   			font-weight: normal;
+    		font-size: 20px;
+		}
+		
+		.hero-sidebarContent{
+			padding: 10px 0 0;
+  			border: 1px solid #ddd;
+  			background: #fbf7eb;
+		}
+		
+		.hero-sidebarContent ul li{
+			border-bottom: 1px solid #EFECDD;
+  			padding-left: 30px;
+		}
+		.hero-sidebarContent ul li a{
+				display: block;
+   				padding-top: 12px;
+			    padding-bottom: 12px;
+			    line-height: 24px;
+			    color: #333;
+			    font-size: 16px;
+		}
+		.hero-sidebarContent ul li a:hover{
+			text-decoration: none;
+		}
+		
+		/*鼠标放上效果*/
+		.hero-sidebarContent ul li a:hover{
+			color: #d00c1d;
+		}
+		
+		/*添加一个选中效果*/
+		.hero-sidebarContent ul li a.chosen{
+			color: #d00c1d;
+		}
+		
+		/*最后一个li消除底线*/
+		.hero-sidebarContent ul li:last-child{
+			border-bottom: none;
+		}
+		
+@media (max-width:1199px) {
+	/*左侧边栏*/
+		.hero-LeftSidebar{
+			display: none;
+		}
+}

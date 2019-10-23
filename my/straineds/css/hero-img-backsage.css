@@ -1,0 +1,375 @@
+
+html {
+	background: #f9f8f7;
+}
+
+
+/*下拉框*/
+.select-text{
+	cursor: pointer;
+	width: 100%;
+}
+.select-text:focus{
+	outline: none;
+}
+.select-box{
+	cursor: pointer;
+}
+
+.select-lists{
+	border: 1px solid #CCCCCC;
+	display: none;
+}
+.select-lists.show{
+	display: block;
+	margin-top: 10px;
+}
+.select-lists.show .list{
+	margin-top: 10px;
+}
+.select-lists li:hover{
+	color: blue;
+}
+
+
+
+
+.hero-banner{
+	padding: 40px;
+	text-align: center;
+	background: #f9f8f7;
+}
+.cutline{
+	    border: 2px solid #D00C1D;
+}
+.hero-center{
+	width: 1024px;
+	padding: 0px 10px;
+	display: none;
+	position: relative;
+	margin-top: 20px;
+	left: 50%;
+	margin-left: -512px;
+}
+.hero-ing-backsage{
+	border: 1px solid #CCCCCC;
+	background: #f9f8f7;
+	padding-bottom: 10px;
+}
+.hero-header{
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+}
+.hero-input{
+	text-align: center;
+	margin-top: 20px;
+}
+.hero-input input{
+	width: 25%;
+	height: 25px;
+}
+.hero-btn{
+	padding: 5px 10px;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	background: darkgray;
+	color: #fff;
+}
+.hero-bon{
+	background:green;
+	color: #fff;
+}
+.hero-conter{
+	padding-top: 40px;
+}
+.hero-img{
+	width: 31.333%;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 20px;
+}
+.hero-img img{
+	max-width: 100%;
+	max-height: 292px;
+}
+.hero-node{
+	position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background: url(../img/timg.jpg);
+}
+.maskrange {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}
+.maskrange:hover .hero-left{
+	position: absolute;
+	left: 0px;
+}
+/*左边导航*/
+.hero-left {
+    width: 200px;
+    position: relative;
+    margin-top: -112px;
+    left: -200px;
+    top: 112px;
+    height: 100%;
+    text-align: center;
+    background: #F9F8F7;
+    z-index: 999;
+    transition: left 0.25s ease-in;
+}
+/*登录中心*/
+.hero-login{
+	padding: 10px 0;
+	cursor: pointer;
+	color: #D00C1D;
+	border-bottom: 1px dashed gainsboro;
+	transition: all 0.5s ease-in-out; 
+}
+.hero-login:last-child{
+	border-bottom: none
+}
+.hero-login:hover{
+	color: white;
+	background:#D00C1D;
+}
+/*登录界面*/
+.hero-login-mian{
+	width: 80%;
+	display: none;
+}
+.hero-login-conten{
+	margin-top: 2px;
+	background: #F9F8F7;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/*轮播图管理*/
+.corsuel{
+	width: 1024px;
+	margin-top: 20px;
+	display: none;
+	position: relative;
+	left: 50%;
+	margin-left: -512px;
+}
+.hero-corsule-img{
+	width: 100%;
+	height: 300px;
+}
+.hero-corsule-img img{
+	width: 100%;
+	height: 300px;
+}
+
+.daynamic{
+	width: 1024px;
+	display: none;
+	position: relative;
+	margin-top: 20px;
+	left: 50%;
+	margin-left: -512px;
+}
+
+.hero-help{
+	width: 1024px;
+	display: none;
+	position: relative;
+	margin-top: 20px;
+	left: 50%;
+	margin-left: -512px;
+}
+
+.hero-span{
+	display: inline-block;
+	position: relative;
+	top: 0;
+}
+.select{
+	padding: 0 65px;
+}
+.select-title span{
+	line-height: 23px;
+}
+.hero-article{
+	width: 80%;
+	display: none;
+	background: #F9F8F7;
+}
+
+/*欢迎来到管理页面*/
+.admini{
+	width: 1024px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+	right: -1024px;
+	background: #F9F8F7;
+	margin-left: 53px;
+	display: none;
+	text-align: right;
+	padding: 50px 0;
+	line-height: 100px;
+	transition: all 0.25s ease-in-out;
+}
+
+.admini.loaded{
+	right: 0px;
+
+}
+.dinoanimal {
+    position: absolute;
+    top: -85px;
+    right: 350px;
+}
+
+.on{
+	display: block;
+}
+.color{
+	color: #F43838;
+}
+
+/* 添加数据后的效果 */
+.hero-plant {
+	background: aliceblue;
+}
+
+.hero-plant-title {
+	height: 50px;
+	line-height: 50px;
+}
+
+.hero-plant-title div {
+	float: left;
+	text-align: center;
+}
+
+.borders {
+	border-bottom: 1px solid #ccc;
+}
+
+.zoom {
+	width: 33.33%;
+}
+
+.joom {
+	width: 25%;
+}
+
+.coom {
+	width: 20%;
+}
+
+.noom {
+	width: 16.6%;
+}
+
+.yoom {
+	width: 14.2%;
+}
+
+.hero-plant-list{
+	height: 50px;
+	line-height: 50px;
+}
+
+.hero-plant-list div {
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.list-img {
+	height: 100%;
+}
+
+.list-img img {
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.list-a:hover {
+	color: #D00C1D;
+}
+
+
+
+
+
+
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+
+/*  */
+.a-upload {
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}

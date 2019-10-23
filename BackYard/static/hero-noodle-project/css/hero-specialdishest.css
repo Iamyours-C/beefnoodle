@@ -1,0 +1,255 @@
+/*特色菜品*/
+a:hover {
+	text-decoration:none;
+}
+
+.hero-specialdishes {
+	margin: 0 auto;
+	font-size: .13rem;
+}
+
+.hero-attract-img {
+	height: 2.11rem;
+}
+
+.hero-attract-img img {
+	width: 100%;
+	height: auto;
+}
+
+.hero-title {
+	position: relative;
+	top: -.5rem;
+	padding-left: .3rem;
+}
+
+.hero-title .hero-title-list {
+	width: 2.4rem;
+	height: 1.43rem;
+	padding: .66rem .1rem .2rem .3rem;
+	font-size: .2rem;
+	color: #fff;
+}
+
+.hero-title-lists {
+	background: linen;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.hero-title-lists a {
+	font-size: .16rem;
+	display: block;
+	border-bottom: 1px solid #EFECDD;
+	padding: .12rem 0 .12rem .3rem;
+	color: #333;
+}
+
+.hero-title-lists a:hover {
+	color: #D00C1D;
+}
+
+.hero-title-lists .hero-color-a {
+	color: #D00C1D;
+}
+
+.hero-title-lists .hero-botm-a {
+	border-bottom: 0;
+}
+
+/*招商加盟内容*/
+.hero-attract-content {
+	width: 76%;
+	padding: .15rem .2rem .65rem .25rem;
+}
+
+.hero-cont-title {
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: .3rem;
+	line-height: .5rem;
+}
+
+.hero-cont-list {
+	font-size: .16rem;
+	font-weight: bold;
+}
+
+.hero-cont-title .hero-cont-current {
+	padding-left: .16rem;
+	font-size: .13rem;
+	color: #808080;
+	background: url(../img/icon-home.png)no-repeat left center;
+}
+
+.hero-cont-current a {
+	color: #808080;
+}
+
+.hero-cont-current a:hover {
+	color: #010101;
+}
+
+.hero-cont-current .text-color {
+	color: initial;
+}
+
+/*菜品内容*/
+/*特色主食*/
+.hero-single {
+	width: 31.33%;
+	margin-right: 2%;
+	margin-bottom: .25rem;
+	position: relative;
+	animation: myanimate 1s;
+	transform: translateY(100%);
+	opacity: 0;
+}
+/*动画效果*/
+.single1,.single2,.single3{
+	animation: myanimate 1s forwards;
+}
+
+.hero-single:nth-child(1) {
+	/*animation-delay 动画延迟*/
+	animation-delay: .25s;
+}
+.hero-single:nth-child(2) {
+	animation-delay: .5s;
+}
+.hero-single:nth-child(3) {
+	animation-delay: .75s;
+}
+.hero-single:nth-child(4) {
+	animation-delay: .25s;
+}
+.hero-single:nth-child(5) {
+	animation-delay: .5s;
+}
+.hero-single:nth-child(6) {
+	animation-delay: .75s;
+}
+@keyframes myanimate{
+	from{
+		transform: translateY(100%);
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+/*运动结束*/
+
+.hero-single-one {
+	width: 100%;
+	overflow: hidden;
+}
+
+.hero-single-img img{
+	width: 100%;
+	display: block;
+	line-height: 0;
+	transition: 0.3s ease-out; 
+}
+
+.hero-single:hover .hero-single-img img{
+	transform: scale(1.2);
+}
+
+.hero-single-a {
+	display: block;
+	text-align: center;
+	color: #4D4D4D;
+	font-size: .15rem;
+	padding-top: .1rem;
+	padding-bottom: .1rem;
+}
+
+.hero-single-a:hover {
+	color: #D00C1D;
+}
+
+.hero-single.hero-into {
+	margin-right: initial; 
+}
+
+.hero-desdhs-img img {
+	max-width: 100%;
+}
+
+/*风味小食*/
+.hero-cont-liststwo {
+	display: none;
+}
+
+/*菜品翻页*/
+.hero-cont-one {
+	/*display: none;*/
+}
+
+.hero-cont-two {
+	display: none;
+}
+
+/*调试区域*/
+.hero-cont-lists {
+	/*display: none;*/
+}
+
+.hero-desdhs {
+	display: none;
+}
+
+
+@media (max-width: 640px) {
+	.hero-single {
+		width: 47.5%;
+	}
+	
+	.hero-attract-content {
+		padding: 0 .1rem;
+	}
+	
+	.hero-single.hero-into {
+		margin-right: 3%;
+	}
+	
+	.hero-single.hero-intoo {
+		margin-right: initial;
+	}
+	
+}
+
+@media (max-width: 1120px) {
+	
+	.hero-attract-content {
+		width: 100%;
+	}
+	
+	.hero-single-one {
+		height: initial;
+	}
+	
+	.hero-attract-content {
+		padding: 0 .1rem;
+	}
+	
+	.hero-attract {
+		display: none;
+	}
+	
+	.hero-cont-title {
+		display: none;
+	}
+	
+	
+	
+}
+
+@media (max-width: 1200px) {
+	
+	.hero-title {
+		padding-left: initial;
+	}
+	
+}

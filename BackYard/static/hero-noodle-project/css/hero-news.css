@@ -1,0 +1,93 @@
+/*banner*/
+.hero-banner-item {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.hero-banner-item img {
+	width: 100%;
+	height: auto !important;
+}
+/*左边*/
+
+.hero-leftsidebar {
+	position: relative;
+	float: left;
+	top: -0.5rem;
+	left: .35rem;
+	z-index: 20;
+}
+
+/*右*/
+.hero-rightcontent {
+	width: 80%;
+	padding: .25rem 0 .6rem .7rem;
+	float: left;
+}
+.hero-title {
+	border-bottom: .01rem solid #E5E5E5;
+	height: .4rem;
+	margin-bottom: .2rem;
+	padding-right: .15rem;
+}
+.hero-entry-item {
+	min-height: .8rem;
+	margin-bottom: .3rem;
+	padding-bottom: .3rem;
+	border-bottom: .01rem dotted #CCCCCC;
+	cursor: pointer;
+}
+.hero-entry-item:first-child {
+	margin-top: .3rem;
+}
+.hero-entry-item .entry-item-time {
+	width: .75rem;
+	background: #F2F2F2;
+}
+.entry-item-time .day {
+	line-height: .5rem;
+	border-bottom: .01rem solid #EFECDD;
+	font-family: Arial;
+}
+.entry-item-time .date {
+	line-height: .22rem;
+}
+.hero-entry-item .entry-item-summary {
+	width: 89%;
+	padding-left: .25rem;
+}
+.entry-item-summary .detail {
+	font-size: .13rem;
+	line-height: .22rem;
+	margin-bottom: .15rem;
+}
+.entry-item-summary .summary-title {
+	font-weight: bold;
+	margin-bottom: .15rem;
+	display: inline-block;
+}
+.entry-item-summary .summary-title:hover {
+	color: #D00C1D;
+}
+
+
+/*媒体查询*/
+
+@media (max-width:1199px) {
+	.hero-rightcontent {
+		width: 100%;
+		padding: .1rem;
+	}
+	.hero-leftsidebar {
+		display: none;
+	}
+	.hero-rightcontent .hero-title {
+		display: none;
+	}
+}
+@media (max-width:767px) {
+	.hero-rightcontent .entry-item-summary {
+		width: 78%;
+	}
+	
+}

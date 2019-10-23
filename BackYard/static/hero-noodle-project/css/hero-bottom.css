@@ -1,0 +1,98 @@
+
+/*底部总体跳转*/
+.hero-situation {
+	background: #d00c1d;
+	color: #fff;
+	font-size: .13rem;
+	margin: 0 auto;
+	padding: 0 .1rem;
+}
+
+.hero-population {
+	padding: .45rem .2rem .35rem ;
+}
+
+.hero-population-list {
+	width: 20%;
+	float: left;
+}
+
+.hero-population-list .hero-list-title {
+	font-size: .16rem;
+	font-weight: bold;
+	margin-bottom: .1rem;
+}
+
+.hero-population-list .hero-list-lists span{
+	padding: .04rem 0;
+	line-height: 1.5;
+	display: block;
+}
+
+.hero-population-list .hero-list-lists span a {
+	color: #e5e5e5;
+}
+
+.hero-population-list .hero-list-lists span a:hover {
+	text-decoration:none;
+	color: #fff;
+}
+
+.hero-population-list p {
+	padding-top: .3rem;
+	padding-left: .7rem;
+}
+
+/*底部信息栏*/
+.hero-buttom {
+	/*height: .63rem;*/
+	margin: 0 auto;
+	color: #fff;
+	padding: 0 .1rem;
+	font-size: .13rem;
+	background: #181816;
+	padding: .25rem 0;
+}
+
+.hero-buttom-content {
+	text-align: center;
+}
+
+
+@media (max-width: 767px) {
+	
+	.hero-situation {
+		height: initial;
+	}
+	
+	.hero-population {
+		padding-left: initial;
+	}
+	
+	.hero-list-title {
+		padding-top: .05rem;
+	}
+	
+	.hero-population-list {
+		width: 100%;
+		float: initial;
+	}
+	
+	.hero-population-list .hero-list-lists span{
+			border-bottom: 1px solid #EF4D5B;
+	}
+	
+	.hero-population-list p {
+		padding-left: initial;
+	}
+	
+	.hero-buttom {
+		padding: .25rem .10rem;
+	}
+	
+	.hero-buttom-content {
+		text-align: initial;
+	}
+	
+	
+}

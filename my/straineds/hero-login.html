@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>登陆</title>
+        <script src="https://use.fontawesome.com/0d38b6bd9d.js"></script>
+        <style>
+            body{
+                height: 100%;
+                background: #fff url(img/backgroud.png) 50% 00% no-repeat;
+                background-size: initial;
+            }
+            .box{
+                width: 400px;
+                margin: 0 auto;
+                text-align: center;
+                padding: 20px 20px;
+                margin-top: 100px;
+                border: 1px solid #fff;
+                border: 1px solid #ccc;
+            }
+            .mpn{
+                width: 100%;
+                font-size: 16px;
+            }
+            .mpn input{
+                width: 250px;
+                height: 25px;
+                border-radius: 7px;
+                border: 0;
+            }
+            .login{
+                cursor: pointer;
+                border-radius: 5px;
+                width: 50px;
+                height: 20px;
+                background: #fff;
+                border: 1px solid #fff;
+                padding: 3px 3px;
+                color: #1f6f4a;
+                margin-top: 20px;
+                float: left;
+                margin-left: 100px;;
+            }
+            .goRegister{
+                margin-top: 20px;     
+                font-size: 16px;
+                margin-left: 185px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            <form class="login-form">
+            <h1 style="color: #fff;">欢迎登录</h1>
+            <div class="mpn">
+            <span style="color: #fff;">邮箱：</span>
+            <input type="text" name="email" placeholder="Email">
+            </div>
+            <div class="mpn" style="margin-top: 20px;">
+            <span style="color: #fff;">密码：</span>
+            <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="login">登录</div>
+            <div class="goRegister"><span style="font-size: 12px;color: #fff;">没有账户>><a href="http://127.0.0.1:3000/register.html">立即注册</a></span></div>
+            </form>
+        </div>
+    </body>
+    <script src="js/jquery2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="js/login.js"></script>
+</html>
+

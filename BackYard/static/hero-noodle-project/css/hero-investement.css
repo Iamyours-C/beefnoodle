@@ -1,0 +1,172 @@
+
+a:hover {
+	text-decoration:none;
+}
+
+/*招商加盟*/
+.hero-investment {
+	margin: 0 auto;
+	font-size: .13rem;
+	color: #4D4D4D;
+}
+
+.hero-attract-img {
+	overflow: hidden;
+	height: 2.11rem;
+}
+
+.hero-attract-img img {
+	width: 100%;
+	height: auto;
+}
+
+.hero-title {
+	position: relative;
+	top: -.5rem;
+	padding-left: .3rem;
+}
+
+.hero-title .hero-title-list {
+	width: 2.4rem;
+	height: 1.15rem;
+	padding: .5rem .1rem .2rem .3rem;
+	font-size: .2rem;
+	color: #fff;
+}
+
+.hero-title-lists {
+	background: #FCF8EC;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.hero-title-lists a {
+	font-size: .16rem;
+	display: block;
+	border-bottom: 1px solid #EFECDD;
+	padding: .12rem 0 .12rem .3rem;
+	color: #333;
+}
+
+.hero-title-lists a:hover {
+	color: #D00C1D;
+}
+
+.hero-title-lists .hero-color-a {
+	color: #D00C1D;
+}
+
+.hero-title-lists .hero-botm-a {
+	border-bottom: 0;
+}
+
+/*招商加盟内容*/
+.hero-attract-content {
+	width: 76%;
+	padding: .15rem .2rem .65rem .25rem;
+}
+
+.hero-cont-title {
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: .3rem;
+	line-height: .5rem;
+}
+
+.hero-cont-list {
+	font-size: .16rem;
+	font-weight: bold;
+}
+
+.hero-cont-title .hero-cont-current {
+	padding-left: .16rem;
+	font-size: .13rem;
+	color: #808080;
+	background: url(../img/icon-home.png)no-repeat left center;
+}
+
+.hero-cont-current a {
+	color: #808080;
+}
+
+.hero-cont-current a:hover {
+	color: #010101;
+}
+
+.hero-cont-current .text-color {
+	color: initial;
+}
+
+.hero-brand div{
+	font-size: .16rem;
+	line-height: .25rem;
+	margin-bottom: .18rem;
+	font-weight: bold;
+}
+
+.hero-brand span {
+	font-size: .14rem;
+	margin-bottom: .15rem;
+	line-height: .25rem;
+	display: inline-block;
+}
+
+/*加盟流程隐藏*/
+
+/*.hero-attone {
+	display: none;
+}*/
+
+/*.hero-atttwo {
+	display: none;
+}
+
+.hero-attThree {
+	display: none;
+}
+
+.hero-attFour {
+	display: none;
+}*/
+
+.hero-hide {
+	display: none;
+}
+
+@media (max-width: 640px) {
+	
+	.hero-attract-content {
+		text-align: center;
+	}
+	
+	
+}
+
+@media (max-width: 1120px) {
+	
+	.hero-attract {
+		display: none;
+	}
+	
+	.hero-attract-content {
+		width: 100%;
+	}
+	
+	.hero-cont-title {
+		display: none;
+	}
+	
+}
+
+
+
+
+@media (max-width: 1200px) {
+	
+	.hero-title {
+		padding-left: initial;
+	}
+	
+	
+	
+}

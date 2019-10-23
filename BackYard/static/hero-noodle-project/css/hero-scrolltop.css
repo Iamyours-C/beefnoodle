@@ -1,0 +1,19 @@
+.hero-btn-box{
+	width: 55px;
+	height: 55px;
+	position: fixed;
+	right: 2%;
+	bottom: 5%;
+	display: none;
+    background-color: rgba(0,0,0,0.2);
+}
+.hero-btn-box:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.hero-btn-box a{
+	background:url(../img/icon-gotop-fixed.gif) no-repeat center;
+	z-index: 10000;
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+}

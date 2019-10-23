@@ -1,0 +1,44 @@
+	.hero-content-troublelist{
+	margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dotted #e5e5e5;
+	}
+	
+	.hero-troublelist-title{
+		margin-bottom: 15px;
+	}
+	
+	.hero-troublelist-title h2{
+		font-size: 16px;
+   	    line-height: 1.4;
+   	    font-weight: bold;
+	}
+
+	.hero-troublelist-title h2 a{
+		color: #4d4d4d;
+	}
+	
+	.hero-troublelist-title h2 a:hover{
+		color: #d00c1d;
+		text-decoration: none;
+	}
+	
+	.hero-content-troublelist p{
+		    color: #808080;
+		    font-size: 13px;
+		    line-height: 1.6;
+		    margin-bottom: 15px;
+	}
+	.hero-list-detail{
+		    padding-right: 10px;
+		    font-size: 13px;
+		    color: #d00c1d;
+		    background: url(../img/arrow-r.gif) no-repeat right center;
+		    background-color: white;
+		    
+	}
+	.hero-list-detail:hover{
+		text-decoration: none;
+		color: #d00c1d;
+	}
+	

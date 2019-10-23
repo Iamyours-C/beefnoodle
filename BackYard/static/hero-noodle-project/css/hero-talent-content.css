@@ -1,0 +1,26 @@
+   .hero-talent-content {
+   	width: 100%;
+    padding: 50px 0 85px;
+   }
+ 	.hero-job-title{
+ 		display: inline-block;
+ 		border: 2px solid #d00c1d;
+ 		padding: 0 25px;	
+ 		height: 36px;
+ 		line-height: 32px;
+ 		color: #d00c1d;
+ 	}
+	.hero-job-title:hover{
+		background:#d00c1d;
+		color: white;
+	}
+	.hero-cut-line{
+		 border-color: #ccc;
+		 margin: 40px 0;
+	}
+
+@media(max-width:640px ) {
+	 .hero-talent-content {
+   	text-align: center;
+   }
+}

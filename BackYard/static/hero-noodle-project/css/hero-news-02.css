@@ -1,0 +1,9 @@
+.hero-news-content {
+	padding-top: .95rem;
+}
+
+@media (max-width:1120px) {
+	.hero-news-content {
+		padding-top: .3rem;
+	}
+}

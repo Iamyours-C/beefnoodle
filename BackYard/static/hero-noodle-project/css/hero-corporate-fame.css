@@ -1,0 +1,131 @@
+.hero-fame-title{
+	    margin: 30px 0 0;
+   		text-align: center;
+   	    margin-bottom: 5px;
+	    line-height: normal;
+	    font-weight: bold;
+	    color: #C90D1C;
+	    font-size: 24px;
+}
+.hero-title-lists{
+	    font-size: 0;
+	    text-align: center;
+	    margin-top: 30px;
+
+}
+
+.hero-title-lists li{
+	    display: inline-block;
+	    margin: 0 10px;
+}
+
+.hero-title-lists li a{
+	display: inline-block;
+    line-height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #555;
+    background-color: #f2f2f2;
+    transition: all 0.5s ease 0s;
+}
+
+.hero-title-lists li a:hover{
+	 background: #d00c1d;
+     color: #fff;
+     text-decoration: none;
+}
+   
+.hero-title-lists li a.chosen{
+	     background: #d00c1d;
+   		 color: #fff;
+}
+
+
+/*企业荣誉证书列表开始*/
+.hero-image-certificate{
+	width: 100%;
+	padding: 50px 0 85px;
+}
+
+.hero-image-certificate ul li{
+	width: 25%;
+	margin-bottom: 25px;
+}
+.hero-imgBTN {
+	transform: translateY(130%);
+	opacity: 0;
+	animation: myanimate 1s forwards;
+}
+
+.hero-imgBTN:nth-child(1) {
+	animation-delay: .25s;
+}
+.hero-imgBTN:nth-child(2) {
+	animation-delay: .5s;
+}
+.hero-imgBTN:nth-child(3) {
+	animation-delay: .75s;
+}
+.hero-imgBTN:nth-child(4) {
+	animation-delay: 1s;
+}
+.hero-imgBTN:nth-child(5) {
+	animation-delay: 1.2s;
+}
+
+
+@keyframes myanimate{
+	from{
+		transform: translateY(130%);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+/*动画结束*/
+
+.hero-certificate-title{
+	    margin-bottom: 10px;
+        line-height: normal;
+}
+.hero-certificate-title h2{
+	font-size: 14px;
+	line-height: 1.5;
+    font-weight: normal;
+    
+}
+.hero-certificate-title h2 a{
+	color: #4d4d4d;
+}
+
+.hero-certificate-title h2 a:hover{
+	text-decoration: none;
+	color: #d00c1d;
+}
+
+@media (max-width: 1199px) {
+	.hero-fame-title{
+	    display: none;
+}
+	.hero-title-lists{
+	   display: none;
+	}
+
+
+}
+@media (max-width: 640px){
+	
+	.hero-image-certificate ul li{
+		width: 50%;
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 480px){
+	.hero-image-certificate ul li{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+}

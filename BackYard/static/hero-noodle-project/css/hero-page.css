@@ -1,0 +1,95 @@
+
+/*翻页按钮*/
+.hero-pageturningo {
+	display: none;
+	text-align: center;
+	margin: .3rem 0 .2rem;
+}
+
+.hero-pageturningt {
+	display: none;
+	text-align: center;
+	margin: .3rem 0 .2rem;
+}
+
+.hero-page-a {
+	color: #808080;
+	font-size: .13rem;
+	padding: .01rem .13rem;
+	height: .38rem;
+	line-height: .36rem;
+	border: 1px solid #b3b3b3;
+	text-align: center;
+	display: inline-block;
+}
+
+.hero-page a:hover {
+	text-decoration:none;
+}
+
+.hero-page-in {
+	color: #fff;
+	background: #D00C1D;
+}
+
+.hero-page-in:hover {
+	color: #fff;
+	cursor: initial;
+}
+
+.hero-ccg {
+	color: #ddd;
+	cursor: default;
+}
+
+.hero-ccg:hover {
+	background: initial;
+	color: #ddd;
+}
+
+.hero-page-hover:hover{
+	background: #D00C1D;
+	color: #fff;
+}
+
+
+.hero-pagedsp {
+	display: block;
+}
+
+@media (max-width: 767px) {
+	
+	.hero-xx {
+		display: none;
+	}
+		
+	.hero-zz {
+		width: 49%;
+		border-radius: .3rem 0 0 .3rem;
+	}
+	
+	.hero-cc {
+		width: 49%;
+		border-radius: 0rem .3rem .3rem 0;
+	}
+	
+	.hero-page-hover {
+		background: #333;
+		color: #fff;
+	}
+	
+	.hero-page-hover:hover {
+		background: #D00C1D;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+

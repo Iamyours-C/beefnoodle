@@ -1,0 +1,76 @@
+/*banner*/
+.hero-banner {
+	overflow: hidden;
+}
+.hero-banner-item {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.hero-banner-item img {
+	width: 100%;
+	height: auto !important;
+}
+/*map*/
+.hero-bdmap {
+	padding:.1rem;
+}
+.hero-map-show {
+	width: 100%;
+	height: 4.2rem;
+	margin: 0 auto;
+}
+.hero-bdmap-text {
+	padding-top: .3rem;
+}
+.hero-bdmap-text .hero-bdmap-explain {
+	width:75%;
+}
+.hero-bdmap-explain .explain-list {
+	line-height: .24rem;
+}
+
+.hero-bdmap-text .hero-bdmap-code {
+	width: 25%;
+}
+
+/*媒体查询*/
+
+@media (min-width: 768px) {
+	.hero-bdmap {
+		padding:.5rem .3rem .85rem;
+	}
+	.hero-bdmap-text .hero-bdmap-explain {
+		width: 50%;
+	}
+	.hero-bdmap-text .hero-bdmap-code {
+		width: 50%;
+		text-align: right;
+	}
+}
+
+@media (max-width: 767px) {
+	.hero-bdmap {
+		padding:.1rem;
+		padding-bottom: .25rem;
+	}
+	.hero-bdmap-text .hero-bdmap-explain {
+		width: 100%;
+		text-align: center;
+	}
+	.hero-bdmap-text .hero-bdmap-code {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1120px) {
+	.hero-top {
+		background: #FFFFFF;
+	}
+	.hero-bdmap {
+		padding:.1rem;
+		padding-bottom: .25rem;
+	}
+}
+
